@@ -9,8 +9,8 @@ class WP_Meta_Verify
 
     public function header_code()
     {
-        $google_code = '';
-        $bing_code = '';
+        $google_code = get_option('wpmv_google_code'); // typically retrieved from plugin settings page
+        $bing_code = get_option('wpmv_google_code');   //  typically retrieved from plugin settings page
 
         echo $this->google_site_verification($google_code);
         echo $this->bing_site_verification($bing_code);
