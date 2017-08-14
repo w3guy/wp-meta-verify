@@ -1,5 +1,15 @@
 <?php
 
+/*
+Plugin Name: WP Meta Verify
+Plugin URI: https://w3guy.com
+Description: Google and Bing webmaster verification.
+Version: 1.0.0
+Author: Collins Agbonghama
+Author URI: https://w3guy.com
+License: GPL2
+*/
+
 class WP_Meta_Verify
 {
     public function __construct()
